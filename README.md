@@ -16,9 +16,9 @@ As an app development could be picked out this main ideas:
 • Creating such feature in profile as «karma», which is influenced by the other users marks and reflected in top-customer (good tips, politeness) and top-courier (speed, mobility) charts on site. 
 
 # Authors:
-1. Лук’яненко А.
-2. Михайленко Є.
-3. Чечель Д.
+1. Anastasia Lukyanenko
+2. Eva Mikhaylenko
+3. Dima Chechel
 
 # UML-diagram:
 
