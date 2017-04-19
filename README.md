@@ -22,5 +22,5 @@ As an app development could be picked out this main ideas:
 
 # UML-diagram:
 
-![alt text](https://pp.userapi.com/c837533/v837533555/29992/p6LGWaYcyz0.jpg)
+![alt text](https://github.com/NastyaVicodin/Project-HyperDelivery-/blob/master/diagram.png)
 
