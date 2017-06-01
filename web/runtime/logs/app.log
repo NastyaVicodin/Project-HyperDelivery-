@@ -1,0 +1,231 @@
+2017-04-01 17:56:37 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "delivery/index".' in C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('delivery/index', Array)
+#1 C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-01 17:56:35 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'delivery/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a68d3b9f3d6ba3bec1485c45ea2836a5a2c9c3fa527109eed97ba31355d07129a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8brAmp4dTqCgOAmSgpOsoYaUkTWNilKR\";}'
+    'PHPSESSID' => 'pmiqh0hahr986jvdqejup67vn6'
+    '_identity' => 'c0e6c616476bb9fbee50cd83115038e8f7c16098a6a380a2e89a3da34b49923aa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[38,\"ha1GWHX48Kg6ovPKgcSa1HcCD7sl6Cib\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a68d3b9f3d6ba3bec1485c45ea2836a5a2c9c3fa527109eed97ba31355d07129a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228brAmp4dTqCgOAmSgpOsoYaUkTWNilKR%22%3B%7D; PHPSESSID=pmiqh0hahr986jvdqejup67vn6; _identity=c0e6c616476bb9fbee50cd83115038e8f7c16098a6a380a2e89a3da34b49923aa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B38%2C%22ha1GWHX48Kg6ovPKgcSa1HcCD7sl6Cib%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\OpenServer\\modules\\php\\PHP-5.4\\ext;C:\\OpenServer\\modules\\php\\PHP-5.4\\pear;C:\\OpenServer\\modules\\php\\PHP-5.4\\pear\\bin;C:\\OpenServer\\modules\\imagemagick;C:\\OpenServer\\modules\\php\\PHP-5.4;C:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;C:\\OpenServer\\modules\\database\\PostgreSQL-9.3\\bin;C:\\OpenServer\\modules\\http\\Apache-2.2\\bin;C:\\OpenServer\\modules\\http\\Apache-2.2;C:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.27 (Win32)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '50229'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=delivery/index'
+    'REQUEST_URI' => '/basic/web/index.php?r=delivery/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491054995.323
+    'REQUEST_TIME' => 1491054995
+    'argv' => [
+        0 => 'r=delivery/index'
+    ]
+    'argc' => 1
+]
+2017-05-23 22:42:48 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "orders/add_order".' in C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('orders/add_orde...', Array)
+#1 C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-23 22:42:48 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'a68d3b9f3d6ba3bec1485c45ea2836a5a2c9c3fa527109eed97ba31355d07129a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8brAmp4dTqCgOAmSgpOsoYaUkTWNilKR\";}'
+    'PHPSESSID' => '4m7oi260n39j9cb5va3ooc6b72'
+    '_identity' => 'c0e6c616476bb9fbee50cd83115038e8f7c16098a6a380a2e89a3da34b49923aa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[38,\"ha1GWHX48Kg6ovPKgcSa1HcCD7sl6Cib\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web/orders/active_orders'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a68d3b9f3d6ba3bec1485c45ea2836a5a2c9c3fa527109eed97ba31355d07129a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228brAmp4dTqCgOAmSgpOsoYaUkTWNilKR%22%3B%7D; PHPSESSID=4m7oi260n39j9cb5va3ooc6b72; _identity=c0e6c616476bb9fbee50cd83115038e8f7c16098a6a380a2e89a3da34b49923aa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B38%2C%22ha1GWHX48Kg6ovPKgcSa1HcCD7sl6Cib%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\OpenServer\\modules\\php\\PHP-5.4\\ext;C:\\OpenServer\\modules\\php\\PHP-5.4\\pear;C:\\OpenServer\\modules\\php\\PHP-5.4\\pear\\bin;C:\\OpenServer\\modules\\imagemagick;C:\\OpenServer\\modules\\php\\PHP-5.4;C:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;C:\\OpenServer\\modules\\database\\PostgreSQL-9.3\\bin;C:\\OpenServer\\modules\\http\\Apache-2.2\\bin;C:\\OpenServer\\modules\\http\\Apache-2.2;C:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.27 (Win32)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '51388'
+    'REDIRECT_URL' => '/basic/web/orders/add_order'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/orders/add_order'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1495564968.786
+    'REQUEST_TIME' => 1495564968
+    'argv' => []
+    'argc' => 0
+]
+2017-05-23 22:42:50 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "orders/active_orders".' in C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('orders/active_o...', Array)
+#1 C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-23 22:42:50 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'a68d3b9f3d6ba3bec1485c45ea2836a5a2c9c3fa527109eed97ba31355d07129a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8brAmp4dTqCgOAmSgpOsoYaUkTWNilKR\";}'
+    'PHPSESSID' => '4m7oi260n39j9cb5va3ooc6b72'
+    '_identity' => 'c0e6c616476bb9fbee50cd83115038e8f7c16098a6a380a2e89a3da34b49923aa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[38,\"ha1GWHX48Kg6ovPKgcSa1HcCD7sl6Cib\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/basic/web//delivery/my_profile'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a68d3b9f3d6ba3bec1485c45ea2836a5a2c9c3fa527109eed97ba31355d07129a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228brAmp4dTqCgOAmSgpOsoYaUkTWNilKR%22%3B%7D; PHPSESSID=4m7oi260n39j9cb5va3ooc6b72; _identity=c0e6c616476bb9fbee50cd83115038e8f7c16098a6a380a2e89a3da34b49923aa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B38%2C%22ha1GWHX48Kg6ovPKgcSa1HcCD7sl6Cib%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\OpenServer\\modules\\php\\PHP-5.4\\ext;C:\\OpenServer\\modules\\php\\PHP-5.4\\pear;C:\\OpenServer\\modules\\php\\PHP-5.4\\pear\\bin;C:\\OpenServer\\modules\\imagemagick;C:\\OpenServer\\modules\\php\\PHP-5.4;C:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;C:\\OpenServer\\modules\\database\\PostgreSQL-9.3\\bin;C:\\OpenServer\\modules\\http\\Apache-2.2\\bin;C:\\OpenServer\\modules\\http\\Apache-2.2;C:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.27 (Win32)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '51389'
+    'REDIRECT_URL' => '/basic/web/orders/active_orders'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/orders/active_orders'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1495564970.509
+    'REQUEST_TIME' => 1495564970
+    'argv' => []
+    'argc' => 0
+]
+2017-05-23 22:42:54 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('', Array)
+#1 C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\OpenServer\domains\localhost\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\localhost\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-05-23 22:42:54 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'a68d3b9f3d6ba3bec1485c45ea2836a5a2c9c3fa527109eed97ba31355d07129a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8brAmp4dTqCgOAmSgpOsoYaUkTWNilKR\";}'
+    'PHPSESSID' => '4m7oi260n39j9cb5va3ooc6b72'
+    '_identity' => 'c0e6c616476bb9fbee50cd83115038e8f7c16098a6a380a2e89a3da34b49923aa:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[38,\"ha1GWHX48Kg6ovPKgcSa1HcCD7sl6Cib\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=a68d3b9f3d6ba3bec1485c45ea2836a5a2c9c3fa527109eed97ba31355d07129a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228brAmp4dTqCgOAmSgpOsoYaUkTWNilKR%22%3B%7D; PHPSESSID=4m7oi260n39j9cb5va3ooc6b72; _identity=c0e6c616476bb9fbee50cd83115038e8f7c16098a6a380a2e89a3da34b49923aa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B38%2C%22ha1GWHX48Kg6ovPKgcSa1HcCD7sl6Cib%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\OpenServer\\modules\\php\\PHP-5.4\\ext;C:\\OpenServer\\modules\\php\\PHP-5.4\\pear;C:\\OpenServer\\modules\\php\\PHP-5.4\\pear\\bin;C:\\OpenServer\\modules\\imagemagick;C:\\OpenServer\\modules\\php\\PHP-5.4;C:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;C:\\OpenServer\\modules\\database\\PostgreSQL-9.3\\bin;C:\\OpenServer\\modules\\http\\Apache-2.2\\bin;C:\\OpenServer\\modules\\http\\Apache-2.2;C:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.27 (Win32)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/localhost/basic/web/index.php'
+    'REMOTE_PORT' => '51390'
+    'REDIRECT_URL' => '/basic/orders/active_orders'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/orders/active_orders'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1495564974.611
+    'REQUEST_TIME' => 1495564974
+    'argv' => []
+    'argc' => 0
+]
